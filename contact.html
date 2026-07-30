@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | EnergyTransitionPro</title>
+  <meta name="description" content="Get in touch with EnergyTransitionPro for expert corporate finance advisory for Ireland's renewables sector.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <div class="nav-logo-icon">ET</div>
+        <span>EnergyTransitionPro</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact Us</a></li>
+        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+        <li><a href="contact.html" class="nav-cta">Get in Touch</a></li>
+      </ul>
+      <button class="hamburger" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <div class="page-hero">
+    <h1>Contact Us</h1>
+    <p>We'd love to hear from you. Reach out to discuss how we can support your renewable energy project.</p>
+  </div>
+
+  <!-- CONTACT SECTION -->
+  <div class="section" style="max-width:1200px;">
+    <div class="contact-grid">
+      <!-- CONTACT INFO -->
+      <div class="contact-info">
+        <h2 style="font-size:1.6rem;margin-bottom:8px;">Get in Touch</h2>
+        <p style="color:var(--text-muted);font-size:0.95rem;line-height:1.7;margin-bottom:20px;">Whether you are a developer seeking project finance, an investor evaluating a potential acquisition, or a corporation looking to secure a corporate PPA, our team is ready to assist. Reach out using the form or the contact details below.</p>
+
+        <div class="contact-item">
+          <div class="contact-item-icon">&#128205;</div>
+          <div>
+            <h4>Office Address</h4>
+            <p>Fitzwilliam Square<br>Dublin 2, Ireland</p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-item-icon">&#9993;</div>
+          <div>
+            <h4>Email</h4>
+            <p>info@energytransitionpro.ie</p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-item-icon">&#128222;</div>
+          <div>
+            <h4>Phone</h4>
+            <p>+353 1 234 5678</p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-item-icon">&#128338;</div>
+          <div>
+            <h4>Office Hours</h4>
+            <p>Monday &ndash; Friday: 9:00 AM &ndash; 6:00 PM<br>Saturday &amp; Sunday: Closed</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- CONTACT FORM -->
+      <div class="contact-form">
+        <h2 style="font-size:1.4rem;margin-bottom:24px;">Send Us a Message</h2>
+        <form id="contactForm" onsubmit="handleFormSubmit(event)">
+          <div class="form-group">
+            <label for="fullName">Full Name *</label>
+            <input type="text" id="fullName" name="fullName" placeholder="Your full name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required>
+          </div>
+          <div class="form-group">
+            <label for="company">Company</label>
+            <input type="text" id="company" name="company" placeholder="Your company name">
+          </div>
+          <div class="form-group">
+            <label for="service">Service of Interest</label>
+            <select id="service" name="service">
+              <option value="">Select a service...</option>
+              <option value="project-finance">Project Finance</option>
+              <option value="ma-advisory">M&amp;A Advisory</option>
+              <option value="due-diligence">Due Diligence</option>
+              <option value="financial-modelling">Financial Modelling</option>
+              <option value="strategic-advisory">Strategic Advisory</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" placeholder="Tell us about your project or enquiry..." required></textarea>
+          </div>
+          <button type="submit" class="btn-submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="nav-logo" style="margin-bottom:8px;">
+          <div class="nav-logo-icon">ET</div>
+          <span>EnergyTransitionPro</span>
+        </div>
+        <p>Strategic corporate finance for Ireland's renewables sector. Expert support in project finance, M&amp;A, due diligence, financial modelling and strategic advisory.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="index.html">Project Finance</a></li>
+          <li><a href="index.html">M&amp;A Advisory</a></li>
+          <li><a href="index.html">Due Diligence</a></li>
+          <li><a href="index.html">Financial Modelling</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="contact.html">Dublin, Ireland</a></li>
+          <li><a href="mailto:info@energytransitionpro.ie">info@energytransitionpro.ie</a></li>
+          <li><a href="tel:+35312345678">+353 1 234 5678</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 EnergyTransitionPro. All rights reserved.</p>
+      <p><a href="privacy-policy.html">Privacy Policy</a> | <a href="contact.html">Contact</a></p>
+    </div>
+  </footer>
+
+  <script>
+    function handleFormSubmit(e) {
+      e.preventDefault();
+      const form = document.getElementById('contactForm');
+      const btn = form.querySelector('.btn-submit');
+      btn.textContent = 'Message Sent!';
+      btn.style.background = '#138f55';
+      setTimeout(function() {
+        btn.textContent = 'Send Message';
+        btn.style.background = '';
+        form.reset();
+      }, 3000);
+    }
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
